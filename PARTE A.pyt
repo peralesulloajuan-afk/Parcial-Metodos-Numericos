@@ -25,7 +25,7 @@ min_index = np.argmin(Z)
 plt.plot(f[min_index], Z[min_index], marker='o', color='r', markersize=10, 
          label=f'Mínimo local: ({f[min_index]:.4f} Hz, {Z[min_index]:.4f} ohm)')
 
-# Añadimos etiquetas, título y cuadrícula para mejorar la calidad del gráfico (Rúbrica 10%)
+# Añadimos etiquetas, título y cuadrícula para mejorar la calidad del gráfico
 plt.title('Magnitud de Impedancia Bioeléctrica vs Frecuencia', fontsize=14)
 plt.xlabel('Frecuencia f (Hz)', fontsize=12)
 plt.ylabel('Magnitud de Impedancia |Z| (ohm)', fontsize=12)
