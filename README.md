@@ -1,1 +1,0 @@
-# Parcial-Metodos-Numericos
